@@ -1,6 +1,6 @@
-# PlayWithCaches
+# PlayWithCache
 
-A chache and App data cleaner .
+A cache and App data cleaner for Android.
 
 <h1> Download latest version via Gradle</h1>
 
