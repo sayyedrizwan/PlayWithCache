@@ -20,7 +20,9 @@ A chache and App data cleaner .
 	}
   
   
-<h4> Now you can use Playache in your Android app </h4>
+<h4> Now you can use PlayCache in your Android app </h4>
 
 
- <h6> </h6>
+ 	<h6> To Clean your app cache </h6>	
+ 	
+		 PlayCache.cleanCache(context);
