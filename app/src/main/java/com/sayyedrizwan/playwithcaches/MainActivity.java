@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         cleancachewithmessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PlayCache.cleanCachewithMessage(context, "Cleared cache"); //remain message empty if want to get defualt message
+                PlayCache.cleanCachewithMessage(context, "Cleared cache"); //if message empty if want to get defualt message
             }
         });
 
