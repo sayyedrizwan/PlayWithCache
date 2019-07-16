@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group='PlayWithCache'
-version='1.0'
+version='1.2.0'
 
 android {
     compileSdkVersion 28
