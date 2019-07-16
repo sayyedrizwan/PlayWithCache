@@ -66,7 +66,4 @@ License
 	
 	
 	
-	
-	
-	
-Founder Rizwan Sayyed
+<p><font size="2"> Founder Rizwan Sayyed </font></p>
