@@ -5,13 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Toast;
-
 import com.sayyedrizwan.playwithcache.PlayCache;
-import com.squareup.picasso.Callback;
-import com.squareup.picasso.Picasso;
-
 public class MainActivity extends AppCompatActivity {
 
     Context context = MainActivity.this;
@@ -39,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         cleancachewithmessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PlayCache.cleanCachewithMessage(context, "Cleared cache"); //if message empty if want to get defualt message
+                PlayCache.cleanCachewithMessage(context, "Cleared cache"); //if message left empty it will give defualt message
             }
         });
 
@@ -54,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         cleanappdatawithmessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                PlayCache.clearAppDatawithToast(context, "Data delete successfully");
+                PlayCache.clearAppDatawithToast(context, "Data delete successfully"); //if message left empty it will give defualt message
             }
         });
 
