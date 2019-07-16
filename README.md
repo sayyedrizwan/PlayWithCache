@@ -40,5 +40,6 @@ A chache and App data cleaner .
 
  <h6> To Clean your app data and display Toast message </h6>	
  	
-	PlayCache.clearAppDatawithToast(context, "Data delete successfully"); //if message empty if want to get defualt message
+	PlayCache.clearAppDatawithToast(context, "Data delete successfully");
+			//if message left empty it will give defualt message
        
