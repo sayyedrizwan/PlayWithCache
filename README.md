@@ -23,6 +23,14 @@ A cache and App data cleaner for Android.
 <h4> How you can use PlayCache in your Android app </h4>
 
 
+ <h6> Add This permission in your AndroidManifest.xml </h6>	
+ 	
+	 <uses-permission android:name="android.permission.CLEAR_APP_CACHE"
+        tools:ignore="ProtectedPermissions" />
+
+
+
+
  <h6> To Clean your app cache </h6>	
  	
 	PlayCache.cleanCache(context);
@@ -33,6 +41,15 @@ A cache and App data cleaner for Android.
 	PlayCache.cleanCachewithMessage(context, "Cleared cache"); //if message empty if want to get defualt message
        
 
+
+ <h6> Add This permission in your AndroidManifest.xml </h6>	
+ 	
+	
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"
+        tools:ignore="ProtectedPermissions" />
+
+	
+	
  <h6> To Clean your app data </h6>	
  	
 	PlayCache.clearAppData(context);
