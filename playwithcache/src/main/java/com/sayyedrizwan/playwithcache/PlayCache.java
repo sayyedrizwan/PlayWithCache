@@ -1,5 +1,8 @@
 package com.sayyedrizwan.playwithcache;
 
+/*
+Copyright 202 Rizwan Sayyed(sayyed rizwan)
+ */
 import android.content.Context;
 import android.util.Log;
 import android.widget.ImageView;
